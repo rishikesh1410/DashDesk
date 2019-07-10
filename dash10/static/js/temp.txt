@@ -1,0 +1,11 @@
+abcd
+
+
+C:/Users/Shekhar/Desktop/dashdesk/dash10/static/uploads/shekhar7/datamodel/abcdef.csv
+
+
+df_new = pd.read_csv(path)
+		dict_new = {}
+		for i in df_new.columns:
+			l = df[i].apply(list)
+			dict_new[i] = l

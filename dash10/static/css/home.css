@@ -1,0 +1,105 @@
+
+.slick-slider {
+    margin-top: 0px;
+}
+
+.slick-prev, .slick-next {
+    left: 50%;
+    transform: translate(-50%, 0) rotate(90deg);
+}
+.slick-next { 
+    top: unset;
+    bottom: 25px;
+}
+.slick-prev {
+    top: -30px;
+}
+.slick-prev:before, .slick-next:before {
+    color:#fff !important;
+    opacity: 0.8;
+}
+#joindialog1{
+  display: none;
+}
+#joindialog2{
+  display: none;
+}
+#joindialog3{
+  display: none;
+}
+
+@keyframes loader {
+   from {transform: rotate(0deg) scale(1,1);border-radius:0px;}
+   to {transform: rotate(360deg) scale(0, 0);border-radius:50px;}
+}
+@-webkit-keyframes loader {
+   from {-webkit-transform: rotate(0deg) scale(1, 1);border-radius:0px;}
+   to {-webkit-transform: rotate(360deg) scale(0,0 );border-radius:50px;}
+}
+.cactive i,.cactive h3 {
+}
+#payment-button {
+    border-radius : 50px;
+    padding: 10px 15px;
+}
+#resetbtn {
+    display: none;
+}
+a{
+    color:white;
+}
+a:hover{
+  color: white; 
+}
+
+
+#line1 {
+  width : 100px;
+  height : 3px;
+  background-color: #3B5998;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+#line2 {
+  width : 100px;
+  height : 3px;
+  background-color: #3B5998;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+#line3 {
+  width : 100px;
+  height : 3px;
+  background-color: #3B5998;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+#line4{
+  width : 100px;
+  height : 3px;
+  background-color: #3B5998;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+.ui-dialog, .ui-dialog-content {
+    box-sizing: content-box;
+    padding: 0px;
+}
+.ui-dialog-titlebar{
+  border : 1px solid #394082;
+  background-color:  #3B5998;
+  color : #fff;
+}
+.mybtn {
+  border : 1px solid #3B5998;
+  background-color: #fff;
+  color: #3B5998;
+}
+.mybtn:hover {
+  background-color: #3B5998;
+  color: #fff;
+}

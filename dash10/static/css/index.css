@@ -1,0 +1,12 @@
+#payment-button {
+    border-radius : 50px;
+    padding: 10px 15px;
+}
+#resetbtn {
+    display: none;
+}
+a{
+    color:white;
+} 
+
+

@@ -1,0 +1,11 @@
+Subject_Area,Entity_Logical_Name,Attribute_Logical_Name,Data_Type,KEY_IND
+sample_sub_area,dashboard_sales,id,int(11),PRI
+sample_sub_area,iris,id,int(10),PRI
+sample_sub_area,dashboard_seller,id,int(11),PRI
+sample_sub_area,dashboard_seller,sellerid,int(11),
+sample_sub_area,dashboard_sales,AAPL_Open,double,
+sample_sub_area,dashboard_sales,AAPL_Low,double,
+sample_sub_area,iris,sepalLengthCm,"decimal(15,4)",
+sample_sub_area,iris,sepalWidthCm,"decimal(15,4)",
+sample_sub_area,dashboard_seller,name,varchar(250),
+sample_sub_area,dashboard_seller,yearofjoin,datetime(6),

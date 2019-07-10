@@ -1,0 +1,36 @@
+
+.slick-prev{
+left:-15px;
+}
+.slick-next{
+right:-15px;
+}
+.slick-slide {
+  margin: 0 20px;
+}
+ 
+.cactive i,.cactive h3 {
+    color : #fff;
+}
+#payment-button {
+    border-radius : 50px;
+    padding: 10px 15px;
+}
+#resetbtn {
+    display: none;
+}
+a{
+    color:white;
+}
+a:hover{
+  color: white;
+}
+.mybtn {
+  border : 1px solid #3B5998;
+  background-color: #fff;
+  color: #3B5998;
+}
+.mybtn:hover {
+  background-color: #3B5998;
+  color: #fff;
+}

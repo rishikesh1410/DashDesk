@@ -1,0 +1,21 @@
+.slick-slider {
+	margin-top: 0px;
+}
+
+.slick-prev, .slick-next {
+	left: 50%;
+	transform: translate(-50%, 0) rotate(90deg);
+}
+.slick-next {
+	top: unset;
+	bottom: 170px;
+}
+.slick-prev {
+	top: -30px;
+}
+.slick-prev:before, .slick-next:before { 
+	color:#06b9ce !important;
+}
+.slick-slide, .slick-current{
+	border-radius: 10px;
+}

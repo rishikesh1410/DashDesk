@@ -1,0 +1,4 @@
+Subject_Area,Joins
+sample_sub_area,dashboard_sales.id=iris.id
+sample_sub_area,iris.id=dashboard_seller.sellerid
+sample_sub_area,dashboard_sales.id=dashboard_seller.id

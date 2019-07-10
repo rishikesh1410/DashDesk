@@ -1,0 +1,9 @@
+Subject_Area,Entity_Logical_Name,Attribute_Logical_Name,Data_Type,KEY_IND
+sample_datamodel,iris,id,int(10),PRI
+sample_datamodel,iris,sepalLengthCm,"decimal(15,4)",
+sample_datamodel,iris,sepalWidthCm,"decimal(15,4)",
+sample_datamodel,dashboard_sales,id,int(11),PRI
+sample_datamodel,dashboard_sales,AAPL_Open,double,
+sample_datamodel,dashboard_sales,AAPL_Low,double,
+sample_datamodel,dashboard_sales,AAPL_Volumne,double,
+sample_datamodel,dashboard_sales,direction,varchar(250),
